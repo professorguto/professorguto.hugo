@@ -1,0 +1,70 @@
+baseURL = "http://example.org/"
+languageCode = "pt-br"
+title = "Professor Guto"
+theme = "soho"
+enableInlineShortcodes = true
+
+summarylength = 10
+enableEmoji = true
+
+[params]
+author = "Augusto Ribeiro (Guto)"
+description = "Blog de disciplinas"
+
+## Set one of:
+# gravatar = "soho@example.com"
+profilePicture = "images/gravatar.png"
+
+copyright = "Augusto Ribeiro (Guto)"
+license = "CC BY-SA 4.0"
+licenseURL = "https://creativecommons.org/licenses/by-sa/4.0"
+
+## Set custom theme color.
+themeColor = "#5b9388"
+## Set as many as you want.
+[[params.socialIcons]]
+icon = "fa-linkedin"
+title = "Linkedin"
+url = "https://www.linkedin.com/in/augusto-silva-tr%C3%B3pico-ribeiro-b884002a/"
+[[params.socialIcons]]
+icon = "fa-github"
+title = "GitHub"
+url = "https://github.com/professorguto"
+
+[menu]
+
+  [[menu.main]]
+  name = "Posts"
+  weight = 100
+  identifier = "posts"
+  url = "/posts/"
+
+  [[menu.main]]
+  name = "Disciplinas"
+  weight = 200
+  identifier = "disciplinas"
+  url = "/disciplinas/"
+
+  [[menu.main]]
+  name = "Sobre"
+  identifier = "sobre"
+  weight = 300
+  url = "/sobre/"
+
+[taxonomies]
+  disciplinas = "disciplinas"
+  series = "series"
+  tag = "tags"
+
+[markup]
+
+  [markup.highlight]
+  codeFences = true
+  guessSyntax = false
+  hl_Lines = ""
+  lineNoStart = 1
+  lineNos = false
+  lineNumbersInTable = true
+  noClasses = true
+  style = "monokai"
+  tabWidth = 4
