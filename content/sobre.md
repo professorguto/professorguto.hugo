@@ -1,7 +1,7 @@
 ---
 title: "Sobre o que é esse site?"
 date: 2020-10-11T19:23:30-03:00
-draft: true
+draft: false
 ---
 
 Olá a tod@s,
