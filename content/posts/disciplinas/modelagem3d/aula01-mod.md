@@ -1,6 +1,6 @@
 +++
 author = "Augusto Ribeiro"
-title = "Aula 01 - Introdução"
+title = "Aula 01 - Modelagem - Introdução"
 date = "2020-10-11"
 description = "Aula de introdução à disciplina de Modelagem 3D, do segundo semestre do curso Técnico em Computação Gráfica"
 disciplinas = "Modelagem 3D"
@@ -10,5 +10,3 @@ tags = [
 +++
 
 # Teste para primeiro post
-
-
