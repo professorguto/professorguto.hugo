@@ -49,7 +49,7 @@ url = "https://github.com/professorguto"
   name = "Sobre"
   identifier = "sobre"
   weight = 300
-  url = "/sobre/"
+  url = "/sobre/index.html"
 
 [taxonomies]
   disciplinas = "disciplinas"
